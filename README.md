@@ -13,11 +13,11 @@
 
 ---
 
-## 🌟 Genel Bakış
+# 🌟 Genel Bakış
 
 **AuraOS**, Debian tabanlı modern bir Linux dağıtımıdır. 2026 yılı için **Aurora** kod adıyla geliştirilen sistemimiz, sadelik, kararlılık ve güç prensipleriyle tasarlanmıştır.
 
-### ✨ Özellikler
+## ✨ Özellikler
 
 - 🐧 **Debian 13 "Trixie"** tabanlı (Stable/Testing/Sid)
 - 💻 **x64 (amd64)** mimarisi
@@ -37,37 +37,13 @@
 | **20 Eylül** | - | - | **26.3** ✅ | Release |
 | **20 Aralık** | - | **26.2** ✅ | **26.4** ✅ | Release |
 
-## 🚀 Hızlı Başlangıç
+## 💬 Topluluk
+  [💭 Tartışmalar](https://github.com/theauralabs/auraos/discussions)
+  
+  [🐛 Hata Bildirim](https://github.com/theauralabs/auraos/issues)
 
-### GitHub Codespaces ile Geliştirme
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=theauralabs/auraos)
-
-### Yerel Geliştirme
-
-```bash
-# Repository'yi klonla
-git clone https://github.com/theauralabs/auraos.git
-cd auraos
-
-# Geliştirme ortamını kur
-sudo bash scripts/setup-environment.sh
-
-# Logo entegrasyonu
-make logo
-
-# Yardım için
-make help
-
-# ISO derle
-make snapshot BRANCH=stable
-
-💬 Topluluk
-
-    💭 Tartışmalar: GitHub Discussions
-    🐛 Hata Bildirimi: GitHub Issues
-
-📄 Lisans
+## 📄 Lisans
 
 AuraOS, GPL-3.0 lisansı altında yayınlanmaktadır.
-<div align="center"> <strong>AuraOS © 2026 TheAuraLabs</strong> </div> ```
+
+### AuraOS © 2026 TheAuraLabs
