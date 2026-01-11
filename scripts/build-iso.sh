@@ -45,12 +45,8 @@ fi
 
 DATE=$(date +%Y%m%d)
 
-# Logo ASCII
-echo "   ___                 ___  ____  "
-echo "  / _ \\  _   _  _ __  / _ \\/ ___| "
-echo " / /_\\ \\| | | || '__|| |_| \\___ \\ "
-echo "/ _____ \\ |_| || |   |  _  |___) |"
-echo "\\/     \\/\\__,_||_|   |_| |_|____/ "
+echo ""
+echo " AURA OS "
 echo ""
 echo "========================================="
 echo " AuraOS Build System"
@@ -267,13 +263,8 @@ echo "AuraOS" > /etc/hostname
 
 # MOTD
 cat > /etc/motd << MOTD
-
-   ___                 ___  ____  
-  / _ \\  _   _  _ __  / _ \\/ ___| 
- / /_\\ \\| | | || '__|| |_| \\___ \\ 
-/ _____ \\ |_| || |   |  _  |___) |
-\\/     \\/\\__,_||_|   |_| |_|____/ 
-
+ 
+  AURA OS
   Sade, Kararlı, Güçlü.
   
   GitHub: https://github.com/theauralabs/auraos
